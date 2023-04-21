@@ -6,12 +6,15 @@
     <link rel="stylesheet" type="text/css" href="./style_three.css">
     <title>Wishful thinking</title>
 </head>
-<body id="page1">
+<body>
     <h1>Should I make a big change in my life or stay where I am?</h1>
+    <button id="backbtn" onclick="back()">    Back  </button>
+    <p id="demo"></p>
     <div class = "container">
-		<br><br><br><br>
+		<br><br><br>
 		<form id = "form">
-		  <label for="choice">Show me the weather in </label>
+		  <label for="choice">Well, it depends where are you right now? (City)</label> 
+          <br>
 		  <input type="text" id="choice" name="choice">
 		</form>
 
@@ -19,7 +22,7 @@
 
 		<div id = "result"></div>
 	</div>
-    <script src="script_three.js"></script>
+    <script src="script_api.js"></script>
 
 </body>
 </html>

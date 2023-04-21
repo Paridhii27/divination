@@ -18,7 +18,7 @@
 
      max-width: 1200px;
      margin: 0 auto;
-     margin-top: 5%;
+     margin-top: 4%;
      height: 100%;
      color: white;
      display: block;
@@ -39,6 +39,14 @@
     background-image: url('./assets/images/candlelit.png');
   }
 
+  #page3 {
+    background-image: url('./assets/images/r2.png');
+  }
+
+  #page4 {
+    background-image: url('./assets/images/r1.png');
+  }
+
   #div1 {
     width: 20%;
     height: 70px;
@@ -53,13 +61,24 @@ button {
 }
 
 #burnbtn {
-  background-color: #84b5ba;
+  background-color: #fcd158;
     margin:5%;
     font-size: 39px;
     border-radius: 20px;
     position: absolute;
     right: 180px;
     text-shadow: 2px 2px 4px black;
+}
+
+#backbtn {
+  background-color: #84b5ba;
+    margin:5%;
+    font-size: 24px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50px;
+    bottom: -65px;
+    text-shadow: 1px 1px 0px black;
 }
 
 #q1{
@@ -80,4 +99,12 @@ button {
   border-radius: 15px;
   background-color: #7283cc;
   opacity: 80%;
+}
+
+t{
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: #7283cc;
+  opacity: 80%;
+  display:inline;
 }

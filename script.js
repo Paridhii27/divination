@@ -18,20 +18,32 @@ function burn() {
     location.href="./Light.html";
   }
 
+function back() {
+    location.href="./Index.html";
+  }
+
 function one() {
-    //document.getElementById("demo").innerHTML = "Hello World";
-    //window.open("https://www.google.com");
     location.href="./result_one.html";
   }
 
 function two() {
-    //document.getElementById("demo").innerHTML = "Hello World";
-    //window.open("https://www.google.com");
     location.href="./result_two.html";
   }
 
 function three() {
-    //document.getElementById("demo").innerHTML = "Hello World";
-    //window.open("https://www.google.com");
     location.href="./result_three.html";
   }
+
+function giveTime(){
+    document.getElementById('demo').innerHTML=Date();
+    
+}
+
+function giveProb(){
+    var randomNumber = Math.random();
+    if (randomNumber < 0.5) {
+        document.getElementById("demo").innerHTML = "You were on the right path";
+    } else {
+        document.getElementById("demo").innerHTML = "You're lost.";
+    }
+}
