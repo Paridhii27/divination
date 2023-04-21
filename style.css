@@ -78,8 +78,7 @@ button {
     font-size: 24px;
     border-radius: 15px;
     position: absolute;
-    left: 50px;
-    bottom: 0%;
+    left: 100px;
     text-shadow: 1px 1px 0px black;
 }
 

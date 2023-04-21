@@ -19,7 +19,7 @@ function burn() {
   }
 
 function back() {
-    location.href="";
+    location.href="./Light.html";
   }
 
 function one() {

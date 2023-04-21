@@ -49,5 +49,5 @@ btn.addEventListener("click",()=>{
 document.querySelector("label").style.fontSize="24px";
 
 function back() {
-    location.href="./Index.html";
+    location.href="./Light.html";
   }
