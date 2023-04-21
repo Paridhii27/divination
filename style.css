@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Pangram Fragment';
+    src: url('./assets/PPFragment-SerifLight.otf') format('opentype');
+    font-weight: 100;
+  }
+
+ @font-face {
+    font-family: 'Pangram Woodland';
+    src: url('./assets/PPWoodland-Ultralight.otf') format('opentype');
+    font-weight: 100;
+}
+  *{
+    border: 0.5px solid blue;
+  }
+
+  h1{
+    font-family: 'Pangram Fragment', Times;
+  }
+
+  body {
+
+     max-width: 1200px;
+     margin: 0 auto;
+     margin-top: 5%;
+     height: 100%;
+     color: white;
+     display: block;
+     box-sizing: border-box; /* The box border applies to the inside of the div and not to the outside */
+     font-family: 'Pangram Woodland', serif;
+  }
+
+  p{
+    font-family: 'Pangram Woodland', Times;
+    font-size:24px;
+  }
+
+  #page1 {
+    background-image: url('./assets/images/candle.png');
+  }
+
+  #page2 {
+    background-image: url('./assets/images/candlelit.png');
+  }
+
+
+  #div1 {
+    width: 20%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+button {
+    font-family : 'Pangram Fragment', Times;
+    font-size: 39px;
+    font-style: italic;
+    color: white;
+}
+
+#burnbtn {
+  background-color: #84b5ba;
+    margin:5%;
+    border-radius: 20px;
+    position: absolute;
+    right: 180px;
+    text-shadow: 2px 2px 4px black;
+}
