@@ -1,4 +1,4 @@
-const api_key="";
+const api_key="OPENWEATHER_API_KEY";
 
 let btn=document.querySelector("button");
 let city;
