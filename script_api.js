@@ -1,4 +1,4 @@
-const api_key="OPENWEATHER_API_KEY";
+const api_key="a2143b00baecb27b578557d83fd83e6b";
 
 let btn=document.querySelector("button");
 btn.style.background=""
