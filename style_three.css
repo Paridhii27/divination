@@ -24,60 +24,40 @@
      display: block;
      box-sizing: border-box; /* The box border applies to the inside of the div and not to the outside */
      font-family: 'Pangram Woodland', serif;
+     background-image: url('./assets/images/candle.png');
   }
 
   p{
     font-family: 'Pangram Woodland', Times;
     font-size:24px;
   }
-
-  #page1 {
-    background-image: url('./assets/images/candle.png');
-  }
-
-  #page2 {
-    background-image: url('./assets/images/candlelit.png');
-  }
-
-  #div1 {
-    width: 20%;
-    height: 70px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
-}
-
-button {
+  
+  button {
     font-family : 'Pangram Fragment', Times;
     font-style: italic;
     color: white;
 }
 
-#burnbtn {
-  background-color: #84b5ba;
-    margin:5%;
-    font-size: 39px;
-    border-radius: 20px;
-    position: absolute;
-    right: 180px;
-    text-shadow: 2px 2px 4px black;
+.container {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-#q1{
-  font-size: 24px;
-  border-radius: 15px;
-  background-color: #a6b0e3;
+button{
+	height: 40px;
+	vertical-align: middle;
 }
 
-#q2{
-  font-size: 24px;
-  border-radius: 15px;
-  background-color: #919dd9;
-  opacity: 95%;
+#emoji {
+	font-size: 48px;
 }
 
-#q3{
-  font-size: 24px;
-  border-radius: 15px;
-  background-color: #7283cc;
-  opacity: 80%;
+form {
+	display:inline;
+
+}
+
+input[type="text"] {
+	height: 40px;
+	font-size:25px;
 }
