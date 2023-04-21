@@ -1,6 +1,7 @@
 const api_key="OPENWEATHER_API_KEY";
 
 let btn=document.querySelector("button");
+btn.style.background=""
 let city;
 let emoji;
 
