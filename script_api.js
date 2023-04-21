@@ -3,7 +3,6 @@ const api_key="a2143b00baecb27b578557d83fd83e6b";
 let btn=document.querySelector("button");
 btn.style.background=""
 let city;
-let emoji;
 
 let choice= document.getElementById("choice")
 choice.addEventListener("keypress",function(event){
